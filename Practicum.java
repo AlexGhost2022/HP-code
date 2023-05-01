@@ -51,6 +51,7 @@ public class Practicum {
                 int commandRating = scanner.nextInt();
                 if(commandRating==1){
                     userRating.rating();
+                    break;
                 }else if(commandRating==2){
                     System.out.println("До свидания!");
                     break;
